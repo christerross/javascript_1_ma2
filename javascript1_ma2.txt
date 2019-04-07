@@ -1,0 +1,42 @@
+//MODULE ASSIGNMENT 2 - LEVEL 1
+
+1. What is a function literal?
+
+Answer: A function literal is a special notation used to simplify how a function is defined. A function literal has four parts: 
+
+The firstpart is the reserved word function. 
+
+The second part is the function's name.
+
+The third part is the set of parameters of the function.
+
+The fourth part is a set of statements.
+
+
+
+2. What is the constructor?
+
+In JavaScript a constructor is used when you are working with Prototype objects or Object Oriented JavaScript. Constructor are like regular functions, but we use them with the "new" keyword. A consturctor is ueful when you want to create multiple similar objects with the same properties and methods.
+
+
+
+3. What does the return statement do?
+
+A return statement returns a value from a function.
+
+
+
+4. What will be written to the console from this function:
+		function myFunction(){
+			  return console.log('inside my function');
+			  console.log('My name is Andy');
+		}
+		myFunction();
+
+Answer: inside my function
+
+5. Briefly describe scope in JavaScript.
+
+Scope refers to where we define variables and functions. You have two types of scope, Global and Function/Local scope.
+
+The main difference is where you define a variable. In Global scope the variable is defined outside a function for example, and can be accesed from other functions in the code. In Local scope the variable is defined inside the function and is prior to that specific function. 
